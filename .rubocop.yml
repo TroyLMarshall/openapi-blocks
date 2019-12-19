@@ -1,0 +1,15 @@
+inherit_from: .rubocop_todo.yml
+
+Metrics/LineLength:
+  Max: 120
+
+Style/BlockDelimiters:
+  Exclude:
+    - "spec/**/*"
+
+Style/ExpandPathArguments:
+  Exclude:
+    - "openapi-blocks.gemspec"
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes

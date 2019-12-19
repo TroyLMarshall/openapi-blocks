@@ -1,0 +1,6 @@
+en:
+  errors:
+    declarations:
+      root_undeclared: "openapi_root must be declared"
+      
+    not_implemented: "Not implemented"
